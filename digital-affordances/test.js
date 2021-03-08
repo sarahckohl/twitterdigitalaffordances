@@ -1,4 +1,4 @@
-import testEmojis from "../digital-affordances/src/lib/affordances/emoji.js";
+import testEmojis from "./src/lib/definitions/affordances/emojis/index.js";
 
 console.log(testEmojis("flowers", { threshold: 1 })); //false
 console.log(testEmojis("🌼🌺🌸flo 🌺 er 🌸 wers 🌼🌺🌸", { threshold: 8 })); //true
